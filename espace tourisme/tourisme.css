@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #d4d9dd;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2d2d2d;
+    padding: 10px 0;
+    background-image: url(site\ touristique\ 1.jpg);
+}
+
+nav {
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    color: #408a03 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    
+    color: #077275 !important;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e4c205 !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #b7e708;
+}
+
+/* Accueil Section */
+#accueil {
+    background: url('image\ 7.jpg')  no-repeat center center/cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 100px 0;
+}
+
+#accueil h1 {
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#accueil p {
+    font-size: 1.9rem;
+}
+
+.btn-primary {
+    background-color: #177ce0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #0b2e02;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+}
+
+/* About Section */
+#about {
+    background-image: url(image\ 7.jpg) no-repeat center center/cover;
+    padding: 50px 0;
+   /* background-color: #f0f0f0;*/
+    color: #333;
+}
+
+#about h2 {
+    font-style: italic;
+    font-weight: bold;
+    color: #032b2c;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 0;
+}
+
+#services h2 {
+    font-style: italic;
+    color: #032b2c;
+    font-weight: bold;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+#services .row {
+    margin-top: 30px;
+}
+
+#services .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#services img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: #2d2d2d;
+    border-bottom: #177ce0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #05580c;
+    padding: 50px 0;
+}
+
+#testimonials h2 {
+    font-style: italic;
+    color: #032b2c;
+    font-weight: bold;
+    font-size: 2.9rem;
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.carousel-item p {
+    margin: 0;
+    color: #555;
+}
+
+/* Destinations Section */
+#destinations {
+    padding: 50px 0;
+}
+
+#destinations h2 {
+    font-style: italic;
+    font-weight: bold;
+    color: #032b2c;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+#destinations .row {
+    margin-top: 30px;
+}
+
+#destinations .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#destinations h4 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+#destinations p {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#destinations img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Partners Section */
+#partners {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+#partners h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+#partners img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Restaurants Section */
+#restaurants {
+    padding: 50px 0;
+}
+
+#restaurants h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+#restaurants .row {
+    margin-top: 30px;
+}
+
+#restaurants .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#restaurants img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact select,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#contact button {
+    background-color: #1e90ff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #007bff;
+}
+
+/* Footer */
+footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer .social-icons {
+    margin-top: 15px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #1e90ff;
+}
+ooter .social-icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #facc15; /* Jaune pour le survol */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    #accueil h1 {
+        font-size: 2.5rem;
+    }
+
+    #accueil p {
+        font-size: 1.1rem;
+    }
+
+    #testimonials .carousel-item p {
+        font-size: 1rem;
+    }
+
+    #services .col-md-4,
+    #destinations .col-md-4,
+    #restaurants .col-md-4,
+    #partners .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    #contact input,
+    #contact select,
+    #contact textarea {
+        font-size: 0.9rem;
+    }
+}
